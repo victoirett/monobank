@@ -1,52 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-    min-height: 100vh; 
-    background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 20px;
+  min-height: 100vh;
+  background: linear-gradient(111deg, #955fba 10.21%, #cea2d0 90.49%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 .top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .bottom {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-
-
 .left-side {
-    width: 788px;
-    height: 700px;
-    border-radius: 50px 0px 0px 50px;
-    background: #F3F4F6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 790px;
+  height: 988px;
+  border-radius: 50px 0px 0px 50px;
+  background: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .monobank-title {
-    color: #000;
-    font-family: Roboto;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #000;
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 /* .jar-picture {
@@ -55,179 +51,239 @@ body {
 } */
 
 .owner {
-    width: 234px;
-height: 25px;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  width: 234px;
+  height: 25px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .info-about-owner {
-font-size: 34px;
-font-weight: 700;
-text-align: center;
-
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
 }
 
-.extra-info-about-owner{
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
+.extra-info-about-owner {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
 }
-
-
-
 
 .center-bottom {
-    width: 265px;
-    height: 103px;
-    border-radius: 30px;
-    background: #FFF;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  width: 265px;
+  height: 103px;
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .center-bottom i {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .money-now {
-    display: flex;
-    flex-direction: column;
-   
+  display: flex;
+  flex-direction: column;
 }
 
-.money-now div:nth-child(1){
-    color: #999;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 400;
-    
+.money-now div:nth-child(1) {
+  color: #999;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
 }
-.money-now div:nth-child(2){
-    color: #000;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;   
+.money-now div:nth-child(2) {
+  color: #000;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
 }
-
-
-
-
 
 .right-side {
-    width: 788px;
-    height: 700px;
-    border-radius: 0px 50px 50px 0px;
-    background: #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 790px;
+  height: 988px;
+  border-radius: 0px 50px 50px 0px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
-.sum{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 5px solid transparent; 
-    border-radius: 40px;
-    border-image: linear-gradient(to right, #58B3F8, #D813BB) 1;
-    /* border: 5px solid linear-gradient(111deg, #58B3F8 10.21%, #D813BB 90.49%); */
-    background: #FFF;
-    width: 570px;
-    height: 320px;
+.sum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px solid transparent;
+  border-radius: 40px;
+  border-image: linear-gradient(to right, #58b3f8, #d813bb) 1;
+  /* border: 5px solid linear-gradient(111deg, #58B3F8 10.21%, #D813BB 90.49%); */
+  background: #fff;
+  width: 570px;
+  height: 320px;
+  margin-bottom: 16px;
 }
-
 
 .refill {
-    color: #000;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .money_plus {
-    color: #A7A7A9;
-    text-align: center;
-    font-size: 70px;
-    font-weight: 700;
+  color: #a7a7a9;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
 }
 .line {
-    width: 1px;
-    height: 90px;
+  width: 1px;
+  height: 90px;
 }
 
 .plus {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
 }
 .plus div {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-    border: 3px solid #E5E5E5;
-    background: #FFF;
-    width: 150px;
-    height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: 3px solid #e5e5e5;
+  background: #fff;
+  width: 150px;
+  height: 60px;
 }
 .number {
-    color: #000;
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.small_with{
+.small_with {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  border: 3px solid #e5e5e5;
+  background: #fff;
+  width: 490px;
+  height: 80px;
+}
+.small_with_black {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  border: 3px solid black;
+  background: black;
+  width: 490px;
+  height: 80px;
+}
+.small_with_text {
+  width: 283px;
+  height: 27.03px;
+  color: rgb(135, 135, 135);
+}
+.small_with_black_text {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 29px;
+  text-align: center;
+  color: #fff;
+}
+.small_with_light_text {
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 75px;
+  height: 37px;
+}
 
+.img_small {
+  height: 60px;
+}
+
+.img_small_red {
+  height: 30px;
+}
+
+.line_grey {
+  width: 495px;
+  height: 0px;
+  border: 1px solid #acacac;
+}
+.card_mono {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #e9625f;
+}
+
+.pay_card {
+ 
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  
+  font-size: 20px;
 }
 
 .left-bottom {
-    width: 788px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    color: #FFF;
+  width: 788px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #fff;
 }
 
 .right-bottom {
-    width: 788px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; 
-    gap: 20px;
-    color: #FFF;
+  width: 788px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  color: #fff;
 }
 
 .botton-opacity {
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid #FFF;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    font-weight: bold;
-    font-size: 20px;
-
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-
-.botton-opacity i{
-    font-size: 30px;
+.botton-opacity i {
+  font-size: 30px;
 }
-
-
-
-
-
